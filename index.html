@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <meta name="description"
+        content="An interactive chat bot helping new devs learn more about C# compiler errors and REST status codes">
+    <meta name="author" content="Matt Eland">
+    <title>DevHelp Chat Bot by Matt Eland</title>
+
+    <script crossorigin="anonymous" src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        #webchat {
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="webchat" role="main"></div>
+    <script>
+        window.WebChat.renderWebChat(
+            {
+                directLine: window.WebChat.createDirectLine({
+                    token: 'VL3WT66xBnQ.VduptR5urGtP6-877utrNa4dp6sORZ9b6ZksmWFhId4'
+                }),
+                userID: 'ANONYMOUS',
+                username: 'Web Chat User',
+                locale: 'en-US'
+            },
+            document.getElementById('webchat')
+        );
+    </script>
+</body>
+
+</html>
