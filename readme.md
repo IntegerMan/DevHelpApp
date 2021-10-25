@@ -10,3 +10,6 @@ This bot is an experiment intended to help new developers solve problems by prov
 This bot was created with [Microsoft Azure's QnA Maker](https://azure.microsoft.com/en-us/services/cognitive-services/qna-maker/) and [Azure Bot Service](https://azure.microsoft.com/en-us/services/bot-services/). This page uses Microsoft's [web chat control](https://github.com/Microsoft/BotFramework-WebChat).
 
 This bot and its content are maintained by [Matt Eland](https://MattEland.dev). If you have any comments or suggestions, please send them my way via Twitter at [@IntegerMan](https://twitter.com/IntegerMan)
+
+[![Visualization of the codebase](./diagram.svg)](https://octo-repo-visualization.vercel.app/?repo=integerman%2FDevHelpApp)
+[View interactive Diagram](https://octo-repo-visualization.vercel.app/?repo=integerman%2FDevHelpApp)
